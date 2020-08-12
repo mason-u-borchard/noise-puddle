@@ -1,0 +1,22 @@
+config:
+  target: "http://localhost:4444"
+  processor: "./processors.js"
+  phases:
+    - duration: 10
+      arrivalRate: 1000
+scenarios:
+  - flow:
+      - function: "post"
+      - post:
+          url: "/likedsongs"
+          json:
+            artist_id: "{{artist_id}}"
+            song_name: "{{song_name}}"
+            artist_name: "{{artist_name}}"
+            plays: "{{plays}}"
+            likes: "{{likes}}"
+            reposts: "{{reposts}}"
+            comments: "{{comments}}"
+            album_art: "{{album_art}}"
+            location: "{{location}}"
+            artist_pic: "{{artist_pic}}"

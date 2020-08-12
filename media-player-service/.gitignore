@@ -1,0 +1,10 @@
+node_modules
+client/dist/bundle.js
+generatedSongs.csv
+generatedArtists.csv
+generatedData.csv
+server/seeds/pexels.config.js
+server/seeds/pics
+newrelic.js
+newrelic_agent.log
+© 2020 GitHub, Inc.

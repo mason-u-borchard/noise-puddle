@@ -1,0 +1,196 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components render on mount 1`] = `
+<div
+  className="Sidebar__SidebarContainer-sc-1qcjuen-0 gXyDFV"
+  id="sidebar-right"
+>
+  <article
+    id="stats"
+  >
+    <table
+      className="Sidebar__StatTable-sc-1qcjuen-1 bTgztn"
+      id="links"
+    >
+      <tbody
+        className="Sidebar__Tbody-sc-1qcjuen-2 gEreah"
+      >
+        <tr
+          className="Sidebar__Tr-sc-1qcjuen-3 csmPta"
+        >
+          <td
+            className="StatCounts__Td-dpcx90-0 eAZwhG stat-column"
+          >
+            <div
+              className="StatCounts__IndentedDiv-dpcx90-1 ftFxrc"
+            >
+              <h3
+                class="stat-title"
+                className="StatCounts__H3-dpcx90-2 dphLZd"
+              >
+                followers
+              </h3>
+              <div
+                class="stat-num"
+                className="StatCounts__StatNumDiv-dpcx90-3 gRKrvn"
+              />
+            </div>
+          </td>
+          <td
+            className="StatCounts__Td-dpcx90-0 eAZwhG stat-column"
+          >
+            <div
+              className="StatCounts__IndentedDiv-dpcx90-1 ftFxrc"
+            >
+              <h3
+                class="stat-title"
+                className="StatCounts__H3-dpcx90-2 dphLZd"
+              >
+                following
+              </h3>
+              <div
+                class="stat-num"
+                className="StatCounts__StatNumDiv-dpcx90-3 gRKrvn"
+              />
+            </div>
+          </td>
+          <td
+            className="StatCounts__Td-dpcx90-0 eAZwhG stat-column"
+          >
+            <div
+              className="StatCounts__IndentedDiv-dpcx90-1 ftFxrc"
+            >
+              <h3
+                class="stat-title"
+                className="StatCounts__H3-dpcx90-2 dphLZd"
+              >
+                tracks
+              </h3>
+              <div
+                class="stat-num"
+                className="StatCounts__StatNumDiv-dpcx90-3 gRKrvn"
+              />
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </article>
+  <article>
+    <div
+      className="Sidebar__AboutDiv-sc-1qcjuen-4 jJTYND"
+      id="about"
+    >
+      <div>
+        <div>
+          <div
+            style={
+              Object {
+                "position": "absolute",
+                "z-index": "-1",
+              }
+            }
+          >
+            <div
+              className="About__Invis-sc-9ahlt-3 eYwoRx"
+            >
+              <div
+                className="About__AboutDiv2Big-sc-9ahlt-1 dmoGpK"
+                id="notCollapsed"
+              >
+                <div
+                  id="wrapper"
+                >
+                  <div
+                    id="truncated-description"
+                  >
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="About__AboutDiv2-sc-9ahlt-0 kKpAKn"
+            id="notCollapsed"
+          >
+            <div
+              id="wrapper"
+            >
+              <div
+                id="truncated-description"
+              >
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div />
+        </div>
+      </div>
+    </div>
+  </article>
+  <article>
+    <div
+      className="Sidebar__LinksDiv-sc-1qcjuen-5 iBUgtV"
+      id="weblinks"
+    >
+      <ul
+        className="Links__Ul-sc-2fy7xk-0 bRdtPc"
+      />
+    </div>
+  </article>
+  <div
+    className="Sidebar__ArticleLiked-sc-1qcjuen-6 jxzEiT"
+  >
+    <div
+      id="likedsongs"
+    >
+      <div>
+        <div
+          className="LikedSongs__MoreStyling-y57efl-0 bVTIEM"
+        >
+          <h3
+            className="LikedSongs__H3-y57efl-1 jaekZh LIKEDSONGCLASS"
+          >
+            <span
+              className="LIKEDSONGSNUMBER"
+            >
+              <svg
+                baseProfile="tiny"
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                version="1.2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 10.375c0-2.416-1.959-4.375-4.375-4.375s-4.375 1.959-4.375 4.375c0 1.127.159 2.784 1.75 4.375l7 5.25s5.409-3.659 7-5.25 1.75-3.248 1.75-4.375c0-2.416-1.959-4.375-4.375-4.375s-4.375 1.959-4.375 4.375"
+                />
+              </svg>
+               
+               likes
+            </span>
+          </h3>
+        </div>
+        <span
+          className="LikedSongs__SongListDiv-y57efl-4 eLTmdf"
+        >
+          <span
+            className="LikedSongs__Ul-y57efl-5 crPpxo"
+          />
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

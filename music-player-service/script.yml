@@ -1,0 +1,13 @@
+#100 requests every second for 30 seconds
+
+#wasn't able to get more than about 300 rps
+
+config:
+  target: "http://localhost:4000"
+  phases:
+    - duration: 30
+      arrivalRate: 1000
+scenarios:
+  - flow:
+    - get:
+        url: "/getsong/10000000"
